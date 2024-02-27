@@ -2,36 +2,36 @@ import React from 'react'
 
 export default function Proyect() {
     return (
-        <div className="mt-20">
-            <h1 className=' text-center text-2xl  lg:text-3xl bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-transparent'>
-                Trabajos realizados Destacados
-            </h1>
-
-           <div className="flex justify-center align-center">
-           <div className=" mt-16   grid grid-cols1 gap-y-5  lg:grid-cols-3  lg:gap-x-32 lg:gap-y-10 ">
-                <div class="border-2 border-blue-500 p-4 rounded-t-lg  w-[300px] h-[300px]">
-                    <h2>Proyecto 1 </h2>
-                    <div>
-                    <video   autoplay loop muted>
-                        <source src="/Img/ImpulseRadio.mp4 " type="video/mp4" />
-                        Tu navegador no soporta el elemento de video.
-
-                    </video> 
+        <div className="mt-10">
+           <h1 className=' mb-10 text-center  text-2xl  lg:text-3xl bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-transparent'>
+            Trabajos Realizados Destacados</h1>
+            <div className="flex justify-center align-center">
+                <div className=" grid grid-cols-1  gapy-x-0 gap-y-4 lg:grid-cols-3 lg:gap-y-5 lg:gap-x-10 ">
+                    <div className="w-[300px] bg-gray-300 p-5">
+                    <h2 className=' text-center   bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-transparent'>
+                    Impulse Radio</h2>
+                        <video  className= "mb-5" width="300" height="300" autoPlay muted playsInline controls={false} >
+                            <source src="/Img/radio2.mp4" type="video/mp4" />
+                           
+                            Tu navegador no admite el tag de video.
+                        </video>
+                        <p className="text-gray-800 text-center text-sm ">Desarrollado cont Next.js en conjunto con Redux Toolkit y Firebase.</p>
                     </div>
-                    <h6> Descripcion del Proyecto  </h6>
-                </div>
-                <div class="border-2 border-blue-500 p-4 rounded-t-lg  w-[300px] h-[300px]">
-                    <h2>Proyecto 2 </h2>
-                    <h6> Descripcion del Proyecto </h6>
-                    <div></div>
-                </div>
-                <div class="border-2 border-blue-500 p-4 rounded-t-lg  w-[300px] h-[300px]">
-                    <h2 >Proyecto 3 </h2>
-                    <h6> Descripcion del Proyecto </h6>
-                    <div></div>
+
+                    <div className="w-[300px] bg-gray-300 p-5">
+                    <h2 className=' text-center   bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-transparent'>
+                    Bolsa de Trabajo Yobbix</h2>
+                        <video  className= "mb-5" width="300" height="300" autoPlay muted playsInline controls={false} >
+                            <source src="/Img/yobbix2.mp4" type="video/mp4" />
+                           
+                            Tu navegador no admite el tag de video.
+                        </video>
+                        <p className="text-gray-800 text-center text-sm ">Desarrollado con Laravel, Tailwind CSS y Fortify.</p>
+                    </div>
+                   
+                    
                 </div>
             </div>
-           </div>
         </div>
     )
 }
