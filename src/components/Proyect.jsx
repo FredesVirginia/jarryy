@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { IoPaperPlaneSharp } from "react-icons/io5";
 export default function Proyect() {
     return (
         <div className="mt-10">
@@ -16,6 +16,8 @@ export default function Proyect() {
                             Tu navegador no admite el tag de video.
                         </video>
                         <p className="text-gray-800 text-center text-sm ">Desarrollado cont Next.js en conjunto con Redux Toolkit y Firebase.</p>
+                        <p className="bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-center text-sm "><a href="https://inpulse-radio.vercel.app/" className="text-sky-900 text-center text-sm mt-10 ">🛩️ Visitar Sitio</a></p>
+                        <p className="bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-center text-sm "><a href="https://inpulse-radio.vercel.app/" className="text-sky-900 text-center text-sm mp-10 ">💼 GitHub</a></p>
                     </div>
 
                     <div className="w-[300px] bg-gray-300 p-5">
@@ -26,7 +28,12 @@ export default function Proyect() {
                            
                             Tu navegador no admite el tag de video.
                         </video>
-                        <p className="text-gray-800 text-center text-sm ">Desarrollado con Laravel, Tailwind CSS y Fortify.</p>
+                        <p className="text-gray-800 text-center text-sm mb-10 ">Desarrollado con Laravel, Tailwind CSS y Fortify.</p>
+                        
+                        <p className=" text-center text-sm "><a href="https://github.com/FredesVirginia/p-yobbixxxx" className="text-sky-900 text-center text-sm mt-10 ">💼 GitHub</a></p>
+                       
+                      
+                  
                     </div>
                    
                     

@@ -39,7 +39,7 @@ export default function NavBar() {
         width={300}
         height={300}
         alt="Picture of the author"
-        className='imagen-redonda'
+        className='imagen-redonda rounded-full'
       />
        
     </div>
