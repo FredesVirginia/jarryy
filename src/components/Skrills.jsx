@@ -13,7 +13,7 @@ export default function Skrills() {
       <div className="px-10 lg:px-28">
          <h1 className=' text-center text-2xl  lg:text-3xl bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-transparent'>Mi Herramientas</h1>
          <div className="flex justify-center align-center">
-            <div className=" mt-16   grid  grid-cols-3 gap-x-32 gap-y-10 ">
+            <div className=" mt-16   grid  grid-cols-3  gap-x-5 lg:gap-x-32 gap-y-10 ">
                <IoLogoFirebase className="text-5xl" />
                <FaReact className="text-5xl" />
                <SiRedux className="text-5xl" />

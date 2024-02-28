@@ -35,6 +35,22 @@ export default function Proyect() {
                       
                   
                     </div>
+
+                    <div className="w-[300px] bg-gray-300 p-5">
+                    <h2 className=' text-center   bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-transparent'>
+                    Api Videogames</h2>
+                        <video  className= "mb-5" width="300" height="300" autoPlay muted playsInline controls={false} >
+                            <source src="/Img/video.mp4" type="video/mp4" />
+                           
+                            Tu navegador no admite el tag de video.
+                        </video>
+                        <p className="text-gray-800 text-center text-sm mb-10 ">Desarrollado con React Redux y Express.</p>
+                        
+                        <p className=" text-center text-sm "><a href="https://github.com/FredesVirginia/App-Videogames" className="text-sky-900 text-center text-sm mt-10 ">💼 GitHub</a></p>
+                       
+                      
+                  
+                    </div>
                    
                     
                 </div>

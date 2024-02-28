@@ -12,13 +12,7 @@ export default function NavBar() {
           <h1 className=' font-bold transform -skew-x-6 text-white bg-clip-text '> Fredes Virginia</h1>
         </div>
         <div className="flex space-x-4">
-          <div className="hidden lg:block flex space-x-4 ">
-            <Link className='  transform -skew-x-6 text-gray-400 font-bold' href="/">Home</Link>
-            <Link className='  transform -skew-x-6 text-gray-400 font-bold' href="/">Sobre Mi</Link>
-            <Link className='  transform -skew-x-6 text-gray-400 font-bold' href="/">Contacto</Link>
-           
-          </div>
-          <FiAlignJustify className="block lg:hidden text-2xl" />
+          
         </div>
 
 
