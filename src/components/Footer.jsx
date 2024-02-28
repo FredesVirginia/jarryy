@@ -36,7 +36,7 @@ export default function Footer() {
             <IoIosRemove />
           </div>
         </h1>
-        <h2 className='mt-1 text-sm text-center mb-2 text-white'>Contatamente por aqui</h2>
+        <h2 className='mt-1 text-sm text-center mb-2 text-white'>Contactame por aqui</h2>
         <div className="flex justify-center align-center space-x-4 ">
 
 
